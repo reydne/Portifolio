@@ -1,0 +1,23 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+
+}
+.grid-1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.item-1{
+    padding: 10% 10% 10% 10%;
+}
+.item-2{
+    
+}
+.paragrafo{
+    text-align: justify;
+    font-family: sans-serif;
+    line-height: 200%;
+}
+
