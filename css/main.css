@@ -1,34 +1,25 @@
 body{
-    padding: 0%;
-    margin: 0%;
-    background-color: #DCDCDC; 
+    padding: 20%;
+    background-image: linear-gradient(
+        to bottom right,     
+        #EE1E5D,
+        #F99D31
+    )
 }
-h1{
 
-}
-.grid-1{
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-.item-1{
+.sectionContent{
+    background-color: #FCF8EE;
     padding: 10%;
-}
-.item-2{
-    padding: 10% 10% 10% 10%;
-    background-color: #D3D3D3;
-}
-.imgPerfil{
-    max-width:120%;
-    max-height:120%;
-    width: auto;
-    height: auto; 
-}
-.paragrafo{
-    text-align: justify;
-    font-family: sans-serif;
-    line-height: 200%;
-    padding: 5%;
-    border: solid;
+} 
 
+.textBiography{
+    text-align: center;
 }
 
+.imgProfile{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+}
