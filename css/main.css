@@ -29,7 +29,8 @@ p{
 .sectionContent{
     background-color: #FCF8EE;
     padding: 10% 5%;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
 } 
 
 .textBiography{
@@ -39,8 +40,6 @@ p{
 .imgProfile{
     width: 200px;
     height: 200px;
-    /* max-width: 15%;
-    max-height: 15%; */
     display: flex;
     text-align: center;
     margin: auto;
@@ -51,5 +50,5 @@ p{
 #borderImg{
     border: 2px solid black;
     border-radius: 200px;
-    border-color: #F99D31;
+    border-color:#F99D31;
 }
